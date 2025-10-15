@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body class="flex flex-row">
+    <!-- navigasi -->
+    <div id="navigasi" class="w-1/6 overflow-y-scroll font-bold font-sans text-black" style="z-index: 1; background: var(--warna3);">
+        <aside class=" py-10 px-5">
+            <a href="./">
+                <h1 class="menu-lain">BERANDA</h1>
+            </a>
+            <a href="./component/HTML/">
+                <h1 class="menu-lain">HTML</h1>
+            </a>
+            <a href="./component/CSS/">
+                <h1 class="menu-lain">CSS</h1>
+            </a>
+            <a href="./component/JavaScript/">
+                <h1 class="menu-lain">JAVASCRIPT</h1>
+            </a>
+            <a href="./component/Tailwind CSS/">
+                <h1 class="menu-lain">TAILWIND CSS</h1>
+            </a>
+            <a href="./component/Kesan & Pesan/">
+                <h1 class="menu-lain">Kesan & Pesan</h1>
+            </a>
+        </aside>
+    </div>
+    <!-- navigasi -->
+
+    <main id="main_content" class="px-5 py-5 w-5/6" style="background-color: var(--warna1);">
+        <div>
+            <h1 class="text-center text-2xl my-5 font-semibold">Selamat Datang di laman</h1>
+            <h1 class="text-center text-3xl font-bold">Mengenal HTML, CSS, Javascript, dan Tailwind CSS</h1>
+            <h1 class="text-center text-m font-semibold mt-5">By : Rionaldo Purba</h1>
+            <p class="py-5 text-center px-14">Platform ini dibuat untuk memperkenalkan HTML, CSS, Javascript, Dan Tailwind CSS kepada para pengunjung web ini. 
+               Mungkin ada di antara Anda yang belum pernah mendengar atau yang sedang mempelajari keempat komponen tersebut untuk membuat website.
+               Untuk itu, saya membuat platform ini sebagai wadah belajar agar para pengunjung mendapatkan dasar-dasar untuk memulai membantuk
+               sebuah web.
+            </p>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-x-20 gap-y-20 p-5 mt-5 text-justify">
+            <!-- Html -->
+                <div id="html_card" class="card_pilihan">
+                    <h1 class="text-center font-bold text-2xl pb-4">HTML</h1>
+                    <p>
+                        <strong>HTML (HyperText Markup Language)</strong> adalah bahasa dasar untuk membuat dan menyusun halaman web. Dengan HTML, kamu bisa menampilkan teks, gambar, tautan, dan elemen lainnya di browser.
+                    </p>
+                    <p>
+                        HTML bukan bahasa pemrograman, melainkan bahasa markup yang menggunakan tag untuk mengatur struktur konten. Ibarat kerangka, HTML adalah fondasi dari setiap halaman website yang kamu lihat di internet.
+                    </p>
+
+                    <h2 class="pt-5 pb-2 font-bold">Mengapa Belajar HTML Penting?</h2>
+                    <ul class="list-none">
+                        <li class="flex flex-row">
+                            <span class="pr-3 text-xl"> &bull; </span>
+                            <span>
+                                <strong>Fondasi Web Development</strong> : Sebelum belajar CSS atau JavaScript, kamu wajib memahami HTML.
+                            </span>
+                        </li>
+                        <li class="flex flex-row">
+                            <span class="pr-3 text-xl"> &bull; </span>
+                            <span>
+                                <strong>Digunakan di Semua Website</strong> _ Hampir setiap halaman web yang kamu buka hari ini dibangun dengan HTML.
+                        </li>
+                        <li class="flex flex-row">
+                            <span class="pr-3 text-xl"> &bull; </span>
+                            <span>
+                                <strong>Mudah Dipelajari untuk Pemula</strong> : Bahkan tanpa pengalaman coding, kamu bisa mulai menulis HTML dalam hitungan menit
+                            </span>
+                        </li>
+                    </ul>
+
+                    <a href="./component/HTML/">
+                        <div id="html_link_main" class="mt-5 bg-amber-500 px-5 py-3 rounded-xl text-center">
+                            <span class="no-underline hover:underline hover:text-slate-600 font-bold">
+                                Pelajari Sekarang
+                            </span>
+                            <span>&#8594;</span>
+                        </div>
+                    </a>
+                </div>
+            <!-- Html -->
+
+            <!-- CSS -->
+                <div id="css_card" class="card_pilihan">
+                    <h1 class="text-center font-bold text-2xl pb-4">CSS</h1>
+                    <p>
+                        <strong>CSS (Cascading Style Sheets)</strong> adalah bahasa yang digunakan untuk mengatur tampilan halaman web. Dengan CSS, kamu bisa mengubah warna, jenis huruf, ukuran, dan posisi elemen di halaman.
+                    </p>
+                    <p>
+                        CSS bukan bahasa pemrograman, melainkan bahasa gaya yang membuat halaman web terlihat menarik dan terstruktur. Jika HTML adalah kerangka, maka CSS adalah desain luarnya yang memberi tampilan profesional.
+                    </p>
+
+                    <h2 class="pt-5 pb-2 font-bold">Mengapa Belajar CSS Penting?</h2>
+                    <ul class="list-none">
+                        <li class="flex flex-row">
+                            <span class="pr-3 text-xl"> &bull; </span>
+                            <span>
+                                <strong>Mempercantik Tampilan Website</strong> : CSS memungkinkan kamu mengubah desain halaman web sesuai keinginan, dari warna hingga animasi.
+                            </span>
+                        </li>
+                        <li class="flex flex-row">
+                            <span class="pr-3 text-xl"> &bull; </span>
+                            <span>
+                                <strong>Digunakan di Semua Website Modern</strong> : Hampir semua situs profesional menggunakan CSS untuk menciptakan pengalaman pengguna yang menarik dan responsif.
+                        </li>
+                        <li class="flex flex-row">
+                            <span class="pr-3 text-xl"> &bull; </span>
+                            <span>
+                                <strong>Mudah Diintegrasikan dan Dipelajari</strong> : CSS bisa langsung digunakan bersama HTML dan mudah dipahami, terutama bagi pemula yang ingin mulai membuat website yang terlihat profesional.
+                            </span>
+                        </li>
+                    </ul>
+
+                    <a href="./component/CSS/">
+                        <div id="html_link_main" class="mt-5 bg-amber-500 px-5 py-3 rounded-xl text-center">
+                            <span class="no-underline hover:underline hover:text-slate-600 font-bold">
+                                Pelajari Sekarang
+                            </span>
+                            <span>&#8594;</span>
+                        </div>
+                    </a>
+                </div>
+            <!-- CSS -->
+
+            <!-- JS -->
+                <div id="js_card" class="card_pilihan">
+                    <h1 class="text-center font-bold text-2xl pb-4">JavaScript</h1>
+                    <p>
+                        <strong>JavaScript (JS)</strong> adalah bahasa pemrograman yang digunakan untuk membuat halaman web menjadi interaktif. Dengan JavaScript, kamu bisa menambahkan fitur seperti tombol yang bisa diklik, form yang bisa diproses, hingga animasi dinamis di website.
+                    </p>
+                    <p>
+                        Berbeda dari HTML dan CSS, JavaScript bisa merespons tindakan pengguna secara langsung. Jika HTML adalah kerangka, dan CSS adalah tampilan, maka JavaScript adalah otak yang menghidupkan halaman web.
+                    </p>
+
+                    <h2 class="pt-5 pb-2 font-bold">Mengapa Belajar JavaScript Penting?</h2>
+                    <ul class="list-none">
+                        <li class="flex flex-row">
+                            <span class="pr-3 text-xl"> &bull; </span>
+                            <span>
+                                <strong>Menambahkan Interaktivitas ke Website</strong> : JavaScript membuat halaman web jadi hidup, seperti tombol yang bisa diklik, form yang bisa divalidasi, atau konten yang bisa berubah secara dinamis
+                            </span>
+                        </li>
+                        <li class="flex flex-row">
+                            <span class="pr-3 text-xl"> &bull; </span>
+                            <span>
+                                <strong>Digunakan di Hampir Semua Website Modern</strong> : Dari situs sederhana hingga aplikasi web kompleks, JavaScript jadi bagian penting dalam pengembangannya.
+                        </li>
+                        <li class="flex flex-row">
+                            <span class="pr-3 text-xl"> &bull; </span>
+                            <span>
+                                <strong>Wajib Dikuasai untuk Menjadi Web Developer</strong> : Bersama HTML dan CSS, JavaScript adalah bagian dari “tiga serangkai” utama yang harus dikuasai dalam web development.
+                            </span>
+                        </li>
+                    </ul>
+
+                    <a href="./component/JavaScript/">
+                        <div id="html_link_main" class="mt-5 bg-amber-500 px-5 py-3 rounded-xl text-center">
+                            <span class="no-underline hover:underline hover:text-slate-600 font-bold">
+                                Pelajari Sekarang
+                            </span>
+                            <span>&#8594;</span>
+                        </div>
+                    </a>
+                </div>
+            <!-- JS -->
+            
+            <!-- Tailwind -->
+                <div id="tailwind_card" class="card_pilihan">
+                    <h1 class="text-center font-bold text-2xl pb-4">Tailwind CSS</h1>
+                    <p>
+                        <strong>Tailwind CSS</strong> adalah framework utility-first untuk CSS yang memudahkan kamu membuat desain antarmuka langsung di dalam HTML. Dengan Tailwind, kamu bisa mengatur warna, ukuran, jarak, dan responsivitas hanya dengan menambahkan class pada elemen.
+                    </p>
+                    <p>
+                        Berbeda dari CSS biasa yang menulis kode di file terpisah, Tailwind memungkinkan kamu membangun desain secara cepat dan konsisten tanpa harus membuat banyak aturan CSS manual.
+                    </p>
+
+                    <h2 class="pt-5 pb-2 font-bold">Mengapa Belajar Tailwind Penting?</h2>
+                    <ul class="list-none">
+                        <li class="flex flex-row">
+                            <span class="pr-3 text-xl"> &bull; </span>
+                            <span>
+                                <strong>Mempercepat Proses Desain</strong> : Dengan class utility yang siap pakai, kamu bisa membuat tampilan menarik tanpa harus menulis CSS dari nol.
+                            </span>
+                        </li>
+                        <li class="flex flex-row">
+                            <span class="pr-3 text-xl"> &bull; </span>
+                            <span>
+                                <strong>Konsisten dan Skalabel</strong> : Tailwind mendorong penulisan kode yang rapi dan seragam, cocok untuk proyek kecil maupun besar.
+                        </li>
+                        <li class="flex flex-row">
+                            <span class="pr-3 text-xl"> &bull; </span>
+                            <span>
+                                <strong>Populer di Dunia Modern Web</strong> : Banyak developer dan tim startup hingga perusahaan besar mengandalkan Tailwind karena efisiensinya.
+                            </span>
+                        </li>
+                    </ul>
+
+                    <a href="./component/Tailwind CSS/">
+                        <div id="html_link_main" class="mt-5 bg-amber-500 px-5 py-3 rounded-xl text-center">
+                            <span class="no-underline hover:underline hover:text-slate-600 font-bold">
+                                Pelajari Sekarang
+                            </span>
+                            <span>&#8594;</span>
+                        </div>
+                    </a>
+                </div>
+            <!-- Tailwind -->
+        </div>
+    </main>
+</body>
+</html>
