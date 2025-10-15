@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../src/gambar/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../dist/output.css">
+    <title>HTML | Rionaldo Purba</title>
+</head>
+<body class="flex flex-row">
+    <!-- navigasi -->
+    <div id="navigasi" class="w-1/6 overflow-y-scroll font-bold font-sans text-black" style="z-index: 1; background: var(--warna3);">
+        <aside class=" py-10 px-5">
+            <a href="../../">
+                <h1 class="menu-lain">BERANDA</h1>
+            </a>
+
+            <h1 class="menu-lain">HTML</h1>
+            <!-- ingat ganti -->
+            <h1 id="pengantar_html" class="menu-section">Pengantar HTML</h1>
+            <h1 id="dasar_html" class="menu-section">Dasar HTML</h1>
+            <h1 id="elemen_html" class="menu-section">Elemen HTML</h1>
+            <!-- ingat ganti -->
+
+            <a href="../CSS/">
+                <h1 class="menu-lain">CSS</h1>
+            </a>
+            <a href="../JavaScript/">
+                <h1 class="menu-lain">JAVASCRIPT</h1>
+            </a>
+            <a href="../Tailwind CSS/">
+                <h1 class="menu-lain">TAILWIND CSS</h1>
+            </a>
+        </aside>
+    </div>
+    <!-- navigasi -->
+
+    <!-- main -->
+    <main class="flex flex-1 justify-between flex-row min-h-screen">
+        <div id="isi_content" class="w-5/6 p-10">
+            <section>
+                <h2 class="text-center font-bold text-4xl">Pengantar HTML</h2>
+                <div class="p-2">
+                    <h2 class="text-2xl py-5">Apa Itu HTML?</h2>
+                    <p>HTML (HyperText Markup Language) adalah bahasa markup standar yang digunakan untuk membuat dan menyusun halaman web.</p>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li>HTML adalah singkatan dari <strong>Hyper Text Markup Language</strong></li>
+                        <li>HTML digunakan untuk <strong>menjelaskan struktur halaman web</strong></li>
+                        <li>HTML terdiri dari <strong>serangkaian elemen</strong></li>
+                        <li>Elemen HTML memberi tahu browser bagaimana <strong>menampilkan konten</strong></li>
+                        <li>Elemen HTML memberi label pada bagian-bagian konten seperti:
+                            <ul class="list-disc list-inside ml-5">
+                                <li>"Ini adalah judul"</li>
+                                <li>"Ini adalah paragraf"</li>
+                                <li>"Ini adalah tautan"</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="p-2">
+                    <h2 class="text-2xl py-5">Dokumen HTML Sederhana</h2>
+                    <img src="../../src/gambar/html_sederhana.png" alt="Gambar HTML" class="pb-5">
+                    <ul class="list-disc list-inside space-y-1">
+                        <li>
+                            Sintaks untuk mendeklarasikan HTML5 adalah 
+                            <code class="text-red-800 bg-blue-500 px-1">&lt;!DOCTYPE html&gt;</code>.
+                        </li>
+                        <li>
+                            Elemen adalah elemen akar dari HTML halaman
+                            <code class="text-red-800 bg-blue-500 px-1">&lt;html&gt;</code>.
+                        </li>
+                        <li>
+                            Elemen menentukan judul untuk elemen Halaman HTML (yang ditampilkan di bilah judul browser atau di tab halaman)
+                            <code class="text-red-800 bg-blue-500 px-1">&lt;title&gt;</code>.
+                        </li>
+                        <li>
+                            Elemen mendefinisikan dokumen, dan merupakan wadah untuk semua konten yang terlihat, seperti judul, paragraf, gambar, hyperlink, tabel, daftar, dll.
+                            <code class="text-red-800 bg-blue-500 px-1">&lt;body&gt;</code>.
+                        </li>
+                        <li>
+                            Elemen mendefinisikan judul besar
+                            <code class="text-red-800 bg-blue-500 px-1">&lt;h1&gt;</code>.
+                        </li>
+                        <li>
+                            Elemen mendefinisikan paragraf
+                            <code class="text-red-800 bg-blue-500 px-1">&lt;p&gt;</code>.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="aspect-w-16 aspect-h-9">
+                    <h2 class="text-2xl py-5">Video: Pengenalan HTML</h2>
+                    <iframe class="w-[60vw] h-96 rounded-lg shadow-lg mx-auto" 
+                    src="https://www.youtube.com/embed/it1rTvBcfRg" 
+                    title="Video Pengenalan HTML"
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </section> 
+        </div>
+    </main>
+    <!-- main -->
+
+    <!-- footer -->
+    <footer class="relative z-50"></footer>
+    <!-- footer -->
+
+    <script type="module" src="../../src/fungsi_js/main.js"></script>
+    <script src="../script_js/side_bar.js"></script>
+    <script type="module" src="../script_js/atur_link_bar_html.js"></script>
+</body>
+</html>
